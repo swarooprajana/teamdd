@@ -1,0 +1,162 @@
+.Continue {
+    padding: 20px;
+  }
+  
+  .Continue h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #photos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    border-radius: 10px;
+  }
+  #photos .movie:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .movie {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(17, 241, 47, 0.918);
+  }
+  
+  .Watchlist {
+    padding: 20px;
+  }
+  
+  .Watching h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 10px;
+  }
+  #photo .watch:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .watch {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(8, 245, 67, 0.925);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Continue {
+      padding: 15px;
+    }
+  
+    .Continue h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  
+    #photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+   
+    .movie {
+      width: 150px;
+      height: 150px;
+      margin: 8px;
+      border-radius: 15px;
+    }
+  
+    .Watchlist {
+      padding: 15px;
+    }
+  
+    .Watching h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  
+    #photo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+    }
+    .watch {
+      width: 150px;
+      height: 150px;
+      margin: 8px;
+      border-radius: 15px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .Continue {
+      padding: 10px;
+    }
+  
+    .Continue h2 {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+  
+    #photos {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .movie {
+      width: 120px;
+      height: 120px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+  
+    .Watchlist {
+      padding: 10px;
+    }
+  
+    .Watching h2 {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+  
+    #photo {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .watch {
+      width: 120px;
+      height: 120px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  

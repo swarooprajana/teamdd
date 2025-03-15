@@ -1,0 +1,105 @@
+.slider-container {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Hero Section */
+.slide {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.slide-title {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.slide-subtitle {
+  font-size: 18px;
+  color: #bbb;
+}
+
+.slide-image {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide-image:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Arrows */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+/* Content Sections */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.see-all-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.see-all-btn:hover {
+  background: darkred;
+}
+
+/* Movie Lists */
+.movie-list {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 10px 0;
+}
+
+.movie-list::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-item {
+  width: 200px;
+  height: 120px;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-item:hover {
+  transform: scale(1.1);
+}

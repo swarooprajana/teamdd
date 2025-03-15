@@ -1,0 +1,29 @@
+.menu {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Create 5 equal columns */
+  gap: 10px; /* Space between buttons */
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.genre-button {
+  width: 150px; /* Set a fixed width */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center; /* Center the text inside the button */
+}
+
+.genre-button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+  transform: scale(1.1); /* Button grows slightly on hover */
+}

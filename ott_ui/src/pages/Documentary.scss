@@ -1,0 +1,34 @@
+.documentary-container {
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .documentary-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .documentary-slider {
+    display: flex;
+    overflow-x: auto; /* Horizontal Scroll */
+    scrollbar-width: none; /* Hide Scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide Scrollbar for IE/Edge */
+  }
+  
+  .documentary-slider::-webkit-scrollbar {
+    display: none; /* Hide Scrollbar for Chrome/Safari */
+  }
+  
+  .movie {
+    width: 200px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie:hover {
+    transform: scale(1.1);
+  }
+  
